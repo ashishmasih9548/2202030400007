@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: right;
+        }
+        .header a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+        .header a:hover {
+            color: #ccc;
+        }
+        .container {
+            margin: 0 auto;
+            max-width: 800px;
+            padding: 20px;
+        }
+        .profile {
+            background-color: #f2f2f2;
+            padding: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .profile h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        .profile p {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+        .stats {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .stats div {
+            flex-basis: calc(33.33% - 20px);
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+            margin-right: 20px;
+            border-radius: 5px;
+        }
+        .stats div:last-child {
+            margin-right: 0;
+        }
+        .stats h2 {
+            margin: 0;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .stats p {
+            margin: 0;
+            font-size: 1.2em;
+        }
+        .status {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .status h2 {
+            margin: 0;
+            font-size: 2em;
+        }
+        .status p {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+    <div class="container">
+        <div class="profile">
+            <h1>Captain</h1>
+            <p>Your name here</p>
+        </div>
+        <div class="stats">
+            <div>
+                <h2>Total Rides</h2>
+                <p>123</p>
+            </div>
+            <div>
+                <h2>Total Earnings</h2>
+                <p>$1,234.56</p>
+            </div>
+            <div>
+                <h2>Rating</h2>
+                <p>4.5</p>
+            </div>
+        </div>
+        <div class="status">
+            <h2>Status</h2>
+            <p>You are currently offline</p>
+            <button>Go On Duty</button>
+        </div>
+    </div>
+</body>
+</html>
